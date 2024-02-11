@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    border:none;
+}
+body{
+            height:100%;
+            background-image:url('bg.jpg');
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment:center;
+}
+button{
+    border: none;
+    padding: 0;
+    background: none;
+}
+.slope{
+    border-radius:27px;
+}
+.slopeimg{
+    border-radius:27px;
+    transition:0.5s;
+}
+.slopeimg:hover{
+    scale:1.1;
+    transition:0.5s;
+}
+.frame{
+    border: none;
+    padding: 0;
+    background: none;
+    width:750px;
+    height:455px;
+}
+.info{
+    background:#fff;
+}
